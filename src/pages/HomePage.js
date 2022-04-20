@@ -48,6 +48,7 @@ function HomePage() {
         </div>
         <p className="text-3xl">ToDo List </p>
         {todos.map(function (singleTodo, i) {
+          // check
           // return <Todo todoObject={singleTodo} needUpdate={setNeedUpdate}/>;
           return <TodoNew todoObject={singleTodo} needUpdate={setNeedUpdate} />;
         })}
